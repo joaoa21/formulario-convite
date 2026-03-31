@@ -1,0 +1,21 @@
+@import url(fields/index.css);
+
+form {
+  margin-top: 3rem;
+}
+
+fieldset {
+  border: none;
+
+  & .titulo-field {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    margin-bottom: 1.625rem;
+  }
+}
+
+legend {
+  font: var(--heading-sm);
+}

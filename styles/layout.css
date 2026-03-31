@@ -1,0 +1,54 @@
+#app {
+  display: grid;
+  grid-template-columns: 31.25% 68.75%;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+aside {
+  background-image: url(../assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+
+  border-radius: 0.75rem;
+  margin: 1.25rem 0.625rem 1.25rem 1.25rem;
+  padding: 2rem;
+
+  & .aside-container {
+    max-width: 25rem;
+  }
+
+  & span {
+    font: var(--logo);
+    color: var(--pink);
+
+    display: inline-block;
+
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  & p {
+    font-weight: 300;
+  }
+}
+
+main {
+  background-color: var(--shape-body);
+  border-radius: 0.75rem;
+  margin: 1.25rem 1.25rem 1.25rem 0.625rem;
+  padding: 5rem 8.125rem;
+
+  overflow: auto;
+
+  & .main-container {
+    max-width: 55rem;
+    margin-right: auto;
+  }
+
+  & h1 {
+    font: var(--heading-md);
+  }
+}
