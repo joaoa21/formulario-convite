@@ -1,4 +1,5 @@
 @import url(type-options.css);
+@import url(colors.css);
 
 input, textarea {
   appearance: none;
