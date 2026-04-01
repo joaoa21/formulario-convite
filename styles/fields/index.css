@@ -1,4 +1,4 @@
-input {
+input, textarea {
   appearance: none;
   width: 100%;
   border-radius: 0.5rem;
@@ -8,6 +8,8 @@ input {
   padding: 0.8125rem 1rem;
 
   font: var(--body-md);
+
+  color: var(--text-body);
 }
 
 label {
@@ -17,7 +19,11 @@ label {
   margin-bottom: 0.75rem;
 }
 
-input:focus {
+input:focus, textarea:focus {
   border: 1px solid var(--brand-light);
   outline: 1px solid var(--brand-light);
+}
+
+.description {
+  margin-top: 1rem;
 }
