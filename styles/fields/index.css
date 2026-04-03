@@ -1,5 +1,6 @@
 @import url(type-options.css);
-@import url(colors.css);
+@import url(radio.css);
+@import url(theme.css);
 
 input, textarea {
   appearance: none;
